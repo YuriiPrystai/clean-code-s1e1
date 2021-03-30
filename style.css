@@ -18,8 +18,9 @@
 }
 
 @media (max-width:768px) {
-.block-more-details { text-align: center;
-}
+  .block-more-details { 
+    text-align: center;
+  }
 }
 .main-content {
   display: block;
