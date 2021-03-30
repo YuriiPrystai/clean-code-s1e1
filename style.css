@@ -39,11 +39,12 @@
 .header {
   list-style: none;
 }
-.input-field,
-button{
+.input-field {
   outline: none;
 }
-button {
+.btn-add,
+.btn-delete,
+.btn-edit {
   background: none;
   border: 0px;
   color: #888;
@@ -51,8 +52,11 @@ button {
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
+  outline: none;
 }
-button:hover {
+.btn-add:hover,
+.btn-delete:hover,
+.btn-edit:hover {
   color: #3a3a3a;
 }
 /* Heading */
@@ -90,6 +94,9 @@ label[for="new-task"] {
 input .new-task {
   width: 318px;
 }
+.btn-add {
+  
+}
 .btn-add:hover {
   color: #0fc57c;
 }
@@ -126,15 +133,15 @@ input .new-task {
 .list-tasks > * >    input[type="text"] {
   width: 226px;
 }
-.list-tasks > * > .delete:hover {
+.list-tasks > * > .btn-delete:hover {
   color: #cf2323;
 }
-.delete > * {
+.btn-delete > * {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.delete > *:hover {
+.btn-delete > *:hover {
   transform: rotateZ(0);
 }
 
