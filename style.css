@@ -35,10 +35,12 @@
 .task-row-wrapper {
   display: flex;
 }
-.list-item, .header {
+.list-item,
+.header {
   list-style: none;
 }
-.input-field, button{
+.input-field,
+button{
   outline: none;
 }
 button {
