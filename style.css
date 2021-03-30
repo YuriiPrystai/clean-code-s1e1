@@ -110,9 +110,6 @@ input .new-task {
   align-items: center;
 }
 
-/* li {
-  
-} */
 .list-tasks > * > * {
   vertical-align: middle;
 }
