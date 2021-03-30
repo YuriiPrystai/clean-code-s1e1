@@ -30,7 +30,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task-row-wrapper {
   display: flex;
@@ -125,7 +125,7 @@ p > button:hover {
   width: 226px;
 }
 .list-tasks > * >    input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 .list-tasks > * > .delete:hover {
   color: #cf2323;
@@ -141,18 +141,18 @@ p > button:hover {
 
 /* Completed */
 .list-tasks #completed-tasks label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .list-tasks > * > input[type=text] {
-  display: none
+  display: none;
 }
 
 .list-tasks li.editMode input[type=text] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .list-tasks li.editMode label {
