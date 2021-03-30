@@ -36,10 +36,10 @@
   display: flex;
 }
 .list-item, .header {
-  list-style:none;
+  list-style: none;
 }
 .input-field, button{
-  outline:none;
+  outline: none;
 }
 button {
   background: none;
@@ -94,7 +94,7 @@ p > button:hover {
 
 /* Task list */
 .list-tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
@@ -147,14 +147,14 @@ p > button:hover {
 
 /* Edit Task */
 .list-tasks > * > input[type=text] {
-  display:none
+  display: none
 }
 
 .list-tasks li.editMode input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .list-tasks li.editMode label {
-  display:none;
+  display: none;
 }
