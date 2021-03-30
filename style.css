@@ -129,12 +129,12 @@ p > button:hover {
 .list-tasks > * > .delete:hover {
   color: #cf2323;
 }
-.delete img {
+.delete > * {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.delete img:hover {
+.delete > *:hover {
   transform: rotateZ(0);
 }
 
